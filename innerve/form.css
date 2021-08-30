@@ -1,0 +1,162 @@
+/* Customize the label (the container) */
+h1{
+   
+    font-size: xxx-large;
+    color: rgb(255, 250, 250);
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 02;
+}
+p{
+   
+    font-size:large;
+    color: rgb(255, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2 {
+    padding-left: 86px;
+  
+    margin: auto;
+  
+      
+  }
+#container1 {
+    padding-left: 56px;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 8px;
+        background-image: url(200304.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.78;
+        padding: 20px;
+      
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  
+  }
+
+#name, #email{ 
+    font-size:large;
+    color: rgb(255, 250, 250);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+  input[type=text], input[type=email] {
+    width: 85%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f8fafa;
+    color:rgb(248, 241, 241);
+    
+  }
+  
+  
+
+  
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size:large;
+    color: rgb(255, 250, 250);
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    padding: 45px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: rgb(67, 161, 12);
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #f2f5f7;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(16, 5, 68);
+  }
+  
+  #other{
+
+    font-size:large;
+    color: rgb(255, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #fbranch{
+
+    font-size:large;
+    color: rgb(255, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .registerbtn {
+    background-color: #17da48;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: large;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
